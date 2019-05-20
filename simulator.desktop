@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Behavioral Cloning Simulator
+Path=/home/workspace/
+Exec=vglrun bash -c "cd /home/workspace/ && python3 keep_alive.py" 
+Icon=/home/workspace/udacity-logo.png
+
+Terminal=true
+Type=Application
