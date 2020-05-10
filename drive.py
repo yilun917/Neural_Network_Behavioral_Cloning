@@ -21,7 +21,7 @@ app = Flask(__name__)
 model = None
 prev_image_array = None
 
-
+# PID controller class
 class SimplePIController:
     def __init__(self, Kp, Ki):
         self.Kp = Kp
